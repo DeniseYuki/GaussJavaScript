@@ -75,7 +75,7 @@
     </div>
     <br>
     <div class="segundo-box">
-        <div class="texto">
+        <div class="texto1">
             <div class="texto-tituloMenor">
                 <div class="icons-dois">
                     <i class="fa fa-school"></i>
@@ -132,7 +132,7 @@
         </div>
     </div>
 
-    <div class="retangulo1">
+    <div class="retangulo2">
 
         <img src="https://neilpatel.com/wp-content/uploads/2017/05/LinkedIn.jpg" height="18" width="18"></a>
         <a href="https://www.linkedin.com/in/deniseyuki/" target="_blank">[Linkedin]</a>
@@ -146,7 +146,7 @@
             height="15" width="15">
         <a href="https://instagram.com/deyu.ki?igshid=ZDdkNTZiNTM=" target="_blank"> [Instagram]</a><br>
     </div>
-    </div>
+   
 <br>
 <br>
 
@@ -157,37 +157,39 @@
         </div>
         <script>
         var mensagemElemento = document.getElementById("mensagem");
-        mensagemElemento.innerHTML = "Contato";
+        mensagemElemento.innerHTML = "";
         
         </script>
         <br>
 
-    <form id="Contato">
-        <br>
-        <label for ="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome"></input>
-        <br>
-        <br>
-        <br>
+        <form id="Contato">
+            <h1>Contato</h1>
+            <br>
+            <label for ="nome"><h4>Nome:</h4></label>
+            <input type="text" id="nome" name="nome"></input>
+            <br>
+            <label for ="email"><h4>E-mail:</h4></label>
+            <input type="email" id="email" name="E-mail"></input>
+            <br>
+            <label for ="Mensagem"><h4>Msg:</h4> </label>
+            <textarea name="Mensagem" id="" cols="30" rows="3"></textarea>
+            <br>
+            <label for ="Mensagem"></label>
+            <br>
+            <input type="submit" value="Enviar"></input>
+            <br>    
+        </form>
+        <h3>Click</h3>
 
-        <label for ="email">E-mail:</label><br>
-        <input type="email" id="email" name="E-mail"></input>
-        <br>
-        <br>
-        <br>
+        <button type="button" onclick="alert(' Bem-vindo ao meu portfólio!')">Click Me!</button>
 
-        <label for ="Mensagem">Msg: </label><br>
-        <textarea name="Mensagem" id="" cols="30" rows="3"></textarea>
-        <br>
-        <label for ="Mensagem"></label>
-        <br>
-        <input type="submit" value="Enviar"></input>
-        <br>
-        <br>
-        <br>
-    </form>
+
     </div>
 </div>
+
+
+
+
 </body>
 
 </html>
